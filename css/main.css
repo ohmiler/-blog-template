@@ -1,0 +1,169 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+/* line 6, ../sass/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, ../sass/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 31, ../sass/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 34, ../sass/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 37, ../sass/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 40, ../sass/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 45, ../sass/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 9, ../sass/main.scss */
+.container {
+  width: 750px;
+  margin: 0 auto;
+}
+
+/* line 14, ../sass/main.scss */
+.menu-left {
+  float: left;
+  width: 310px;
+  height: 800px;
+  position: fixed;
+  -webkit-box-shadow: 4px 0px 10px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 0px 10px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 0px 10px -5px rgba(0, 0, 0, 0.75);
+  text-align: center;
+}
+/* line 24, ../sass/main.scss */
+.menu-left h1 {
+  font-family: 'Satisfy', cursive;
+  font-size: 60px;
+  padding-top: 55px;
+}
+/* line 30, ../sass/main.scss */
+.menu-left ul.icon-social {
+  margin: 45px 0px;
+}
+/* line 32, ../sass/main.scss */
+.menu-left ul.icon-social li {
+  margin-left: 10px;
+  display: inline-block;
+}
+/* line 36, ../sass/main.scss */
+.menu-left ul.icon-social .fa {
+  color: #000000;
+}
+/* line 41, ../sass/main.scss */
+.menu-left ul.menu {
+  font-family: 'Open Sans', sans-serif;
+}
+/* line 43, ../sass/main.scss */
+.menu-left ul.menu li {
+  margin-bottom: 30px;
+}
+/* line 45, ../sass/main.scss */
+.menu-left ul.menu li a {
+  text-decoration: none;
+  color: #000000;
+  border-bottom: 2px solid transparent;
+  transition: .3s ease;
+  padding-bottom: 10px;
+}
+/* line 52, ../sass/main.scss */
+.menu-left ul.menu li a:hover {
+  border-bottom: 2px solid #000000;
+}
+
+/* line 60, ../sass/main.scss */
+.content-right {
+  width: 1032px;
+  float: right;
+  font-family: 'Open Sans', sans-serif;
+}
+/* line 64, ../sass/main.scss */
+.content-right .divider {
+  border: 1px solid #12a1eb;
+  margin-top: 55px;
+  margin-bottom: 30px;
+}
+/* line 70, ../sass/main.scss */
+.content-right .box-item {
+  width: 340px;
+  float: left;
+  margin-right: 35px;
+  position: relative;
+  left: 15px;
+}
+/* line 76, ../sass/main.scss */
+.content-right .box-item h1 {
+  margin-top: 10px;
+  font-size: 24px;
+}
+/* line 80, ../sass/main.scss */
+.content-right .box-item p {
+  font-size: 16px;
+  color: #a3a3a3;
+  margin: 20px 0px;
+}
+/* line 85, ../sass/main.scss */
+.content-right .box-item .box-date {
+  margin-bottom: 20px;
+}
+/* line 87, ../sass/main.scss */
+.content-right .box-item .box-date .calendar {
+  width: 16px;
+  height: 15px;
+  background-image: url(../img/icon.png);
+  float: left;
+  clear: left;
+  margin-right: 5px;
+}
+/* line 95, ../sass/main.scss */
+.content-right .box-item .box-date .date {
+  font-size: 14px;
+  color: #a3a3a3;
+}
